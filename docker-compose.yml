@@ -8,7 +8,8 @@ services:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
         build: ./poste_utilisateur/
-
+        tty: true
+        stdin_open: true
         ## restart on crash
         restart: always
         ## pass environment variables
@@ -22,7 +23,8 @@ services:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
         build: ./poste_externe_kali/
-
+        tty: true
+        stdin_open: true
         ## restart on crash
         restart: always
         ## pass environment variables
@@ -36,7 +38,8 @@ services:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
         build: ./firewall/
-
+        tty: true
+        stdin_open: true
         ## restart on crash
         restart: always
         ## pass environment variables
@@ -45,3 +48,28 @@ services:
         ports:
             # host:container
             - "2223:22"
+        
+
+networks: 
+    frontend:
+        driver: bridge
+        ipam: 
+            driver: default
+            config: 
+                - subnet: "10.10.0.0/24"
+    fw:
+        ipam:
+            driver: default
+            config:
+                - subnet: "10.10.1.0/24"
+    dmz:
+        driver: bridge
+        ipam: 
+            driver: default
+            config:
+                - subnet: "10.10.2.0/24"
+    zui:
+        ipam:
+            driver: default
+            config: 
+                - subnet: "10.10.3.0/24"
