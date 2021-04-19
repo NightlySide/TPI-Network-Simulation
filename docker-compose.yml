@@ -1,0 +1,18 @@
+version: "3.1"
+
+## specify all services you need, each service is one container which will be run
+services:
+    ## service name, NOT the name of the container (that gets assigned automatically)
+    ## DO NOT use container_name field to manually specify container name, when scaling to more than one container, that will result in an error
+    poste-utilisateur:
+        ## image from which the conatiner should be built, equals to FROM in Dockerfile
+        # this image is based on mysql docker image and it already contains a dump from BEST database
+        build: ./poste_utilisateur/
+
+        ## restart on crash
+        restart: always
+        ## pass environment variables
+        #environment:
+        #    - MYSQL_ROOT_PASSWORD=example
+        ports:
+            - "3306:3306"
