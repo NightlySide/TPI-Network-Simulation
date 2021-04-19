@@ -17,3 +17,31 @@ services:
         ports:
             # host:container
             - "2221:22"
+
+    kali:
+        ## image from which the conatiner should be built, equals to FROM in Dockerfile
+        # this image is based on mysql docker image and it already contains a dump from BEST database
+        build: ./poste_externe_kali/
+
+        ## restart on crash
+        restart: always
+        ## pass environment variables
+        #environment:
+        #    - MYSQL_ROOT_PASSWORD=example
+        ports:
+            # host:container
+            - "2222:22"
+
+    firewall:
+        ## image from which the conatiner should be built, equals to FROM in Dockerfile
+        # this image is based on mysql docker image and it already contains a dump from BEST database
+        build: ./firewall/
+
+        ## restart on crash
+        restart: always
+        ## pass environment variables
+        #environment:
+        #    - MYSQL_ROOT_PASSWORD=example
+        ports:
+            # host:container
+            - "2223:22"
