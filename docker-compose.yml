@@ -4,6 +4,8 @@ version: "3.1"
 services:
     ## service name, NOT the name of the container (that gets assigned automatically)
     ## DO NOT use container_name field to manually specify container name, when scaling to more than one container, that will result in an error
+    
+    ## === ZUI ===
     poste-utilisateur:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
@@ -21,7 +23,8 @@ services:
         networks: 
             zui:
                 ipv4_address: 10.10.3.2
-
+    
+    ## === INTERNET ===
     kali:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
@@ -40,6 +43,7 @@ services:
             frontend:
                 ipv4_address: 10.10.0.2
 
+    ## === FW ===
     firewall:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
@@ -57,6 +61,18 @@ services:
         networks: 
             fw:
                 ipv4_address: 10.10.1.254
+
+    ## === DMZ ===
+    apache:
+        build: ./serveur_dmz/web/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports: 
+            - "8080:80"
+        networks: 
+            dmz:
+                ipv4_address: 10.10.2.2
         
 
 networks: 
