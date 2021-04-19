@@ -18,6 +18,9 @@ services:
         ports:
             # host:container
             - "2221:22"
+        networks: 
+            zui:
+                ipv4_address: 10.10.3.2
 
     kali:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
@@ -33,6 +36,9 @@ services:
         ports:
             # host:container
             - "2222:22"
+        networks: 
+            frontend:
+                ipv4_address: 10.10.0.2
 
     firewall:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
@@ -48,6 +54,9 @@ services:
         ports:
             # host:container
             - "2223:22"
+        networks: 
+            fw:
+                ipv4_address: 10.10.1.254
         
 
 networks: 
