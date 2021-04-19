@@ -1,0 +1,1 @@
+FROM balabit/syslog-ng

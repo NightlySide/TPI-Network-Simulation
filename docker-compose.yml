@@ -73,7 +73,41 @@ services:
         networks: 
             dmz:
                 ipv4_address: 10.10.2.2
-        
+
+    dns:
+        build: ./serveur_dmz/dns/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports: 
+            - "5353:53"
+        networks: 
+            dmz:
+                ipv4_address: 10.10.2.3
+    
+    syslog:
+        build: ./serveur_dmz/syslog-ng/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports: 
+            - "514:514/udp"
+            - "601:601/tcp"
+        networks: 
+            dmz:
+                ipv4_address: 10.10.2.4
+
+    ossec:
+        build: ./serveur_dmz/ossec/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports: 
+            - "1514:1514/udp"
+            - "1515:1515/tcp"
+        networks: 
+            dmz:
+                ipv4_address: 10.10.2.5
 
 networks: 
     frontend:
