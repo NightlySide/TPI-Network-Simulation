@@ -21,8 +21,9 @@ services:
             # host:container
             - "2221:22"
         networks: 
-            zui:
+            vlan-zui:
                 ipv4_address: 10.10.3.2
+            
     
     ## === INTERNET ===
     kali:
@@ -57,10 +58,21 @@ services:
         #    - MYSQL_ROOT_PASSWORD=example
         ports:
             # host:container
-            - "2223:22"
+            - "80:80"
+            - "443:443"
+        depends_on: 
+            - apache
+        environment: 
+            - TZ="America/Denver"
         networks: 
-            fw:
+            vlan-fw:
                 ipv4_address: 10.10.1.254
+            frontend:
+                ipv4_address: 10.10.0.42
+            vlan-zui:
+                ipv4_address: 10.10.3.42
+            vlan-dmz:
+                ipv4_address: 10.10.2.42
 
     ## === DMZ ===
     apache:
@@ -71,7 +83,7 @@ services:
         ports: 
             - "8080:80"
         networks: 
-            dmz:
+            vlan-dmz:
                 ipv4_address: 10.10.2.2
 
     dns:
@@ -80,9 +92,12 @@ services:
         stdin_open: true
         restart: always
         ports: 
-            - "5353:53"
+            - "53:53"
+            - "10000:10000"
+        volumes: 
+            - /srv/docker/bind:/serveur_dmz/dns/data
         networks: 
-            dmz:
+            vlan-dmz:
                 ipv4_address: 10.10.2.3
     
     syslog:
@@ -94,7 +109,7 @@ services:
             - "514:514/udp"
             - "601:601/tcp"
         networks: 
-            dmz:
+            vlan-dmz:
                 ipv4_address: 10.10.2.4
 
     ossec:
@@ -106,7 +121,7 @@ services:
             - "1514:1514/udp"
             - "1515:1515/tcp"
         networks: 
-            dmz:
+            vlan-dmz:
                 ipv4_address: 10.10.2.5
 
 networks: 
@@ -116,19 +131,22 @@ networks:
             driver: default
             config: 
                 - subnet: "10.10.0.0/24"
-    fw:
+    
+    vlan-fw:
+        driver: macvlan
         ipam:
-            driver: default
             config:
                 - subnet: "10.10.1.0/24"
-    dmz:
-        driver: bridge
+    vlan-dmz:
+        driver: macvlan
         ipam: 
-            driver: default
             config:
                 - subnet: "10.10.2.0/24"
-    zui:
+
+    vlan-zui:
+        driver: macvlan
         ipam:
-            driver: default
             config: 
                 - subnet: "10.10.3.0/24"
+    
+    
