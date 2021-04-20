@@ -9,7 +9,7 @@ services:
     poste-utilisateur:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
-        build: ./poste_utilisateur/
+        build: ./docker/poste_utilisateur/
         tty: true
         stdin_open: true
         ## restart on crash
@@ -29,7 +29,7 @@ services:
     kali:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
-        build: ./poste_externe_kali/
+        build: ./docker/poste_externe_kali/
         tty: true
         stdin_open: true
         ## restart on crash
@@ -45,25 +45,42 @@ services:
                 ipv4_address: 10.10.0.2
 
     ## === FW ===
-    firewall:
-        ## image from which the conatiner should be built, equals to FROM in Dockerfile
-        # this image is based on mysql docker image and it already contains a dump from BEST database
-        build: ./firewall/
+    whoami:
+        image: "traefik/whoami"
+        container_name: "simple-service"
+        labels:
+            - traefik.enable=true
+            - traefik.frontend.rule=PathPrefixStrip:/testpath
+            - traefil.docker.network=vlan-fw
+        networks: 
+            vlan-dmz:
+                ipv4_address: 10.10.2.6
+
+    traefik:
+        image: "traefik:latest"
         tty: true
         stdin_open: true
-        ## restart on crash
         restart: always
-        ## pass environment variables
-        #environment:
-        #    - MYSQL_ROOT_PASSWORD=example
         ports:
-            # host:container
             - "80:80"
-            - "443:443"
+            - "8080:8080"
+        links:
+            - dns
         depends_on: 
             - apache
+            - dns
         environment: 
             - TZ="America/Denver"
+        volumes: 
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./docker/firewall/traefik.yml:/etc/traefik/traefik.yml
+        deploy:
+            placement:
+                constraints:
+                    - node.role == manager
+            labels:
+                - traefil.docker.network=vlan-fw
+                - traefik.http.services.traefik.loadbalancer.server.port=8080
         networks: 
             vlan-fw:
                 ipv4_address: 10.10.1.254
@@ -74,20 +91,51 @@ services:
             vlan-dmz:
                 ipv4_address: 10.10.2.42
 
+    # vyos:
+    #     image: 2stacks/vyos
+    #     tty: true
+    #     stdin_open: true
+    #     restart: always
+    #     privileged: true
+    #     container_name: vyos
+    #     cap_add:
+    #         - NET_ADMIN
+    #     devices:
+    #         - /dev/net/tun
+    #     volumes:
+    #         - "/lib/modules:/lib/modules:ro" 
+    #         - "./docker/firewall/vyos_data/config.init:/config.init"
+    #     entrypoint:
+    #         - /sbin/init
+    #     networks: 
+    #         vlan-fw:
+    #             ipv4_address: 10.10.1.254
+    #         frontend:
+    #             ipv4_address: 10.10.0.42
+    #         vlan-zui:
+    #             ipv4_address: 10.10.3.42
+    #         vlan-dmz:
+    #             ipv4_address: 10.10.2.42
+
     ## === DMZ ===
     apache:
-        build: ./serveur_dmz/web/
+        build: ./docker/serveur_dmz/web/
         tty: true
         stdin_open: true
         restart: always
-        ports: 
-            - "8080:80"
         networks: 
             vlan-dmz:
                 ipv4_address: 10.10.2.2
+        ports:
+            - "8081:8081"
+        labels:
+            - "traefik.enable=true"
+            - traefil.docker.network=vlan-fw
+            - "traefik.http.routers.apache.entrypoints=web"
+            - "traefik.port=8081"
 
     dns:
-        build: ./serveur_dmz/dns/
+        build: ./docker/serveur_dmz/dns/
         tty: true
         stdin_open: true
         restart: always
@@ -101,7 +149,7 @@ services:
                 ipv4_address: 10.10.2.3
     
     syslog:
-        build: ./serveur_dmz/syslog-ng/
+        build: ./docker/serveur_dmz/syslog-ng/
         tty: true
         stdin_open: true
         restart: always
@@ -113,7 +161,7 @@ services:
                 ipv4_address: 10.10.2.4
 
     ossec:
-        build: ./serveur_dmz/ossec/
+        build: ./docker/serveur_dmz/ossec/
         tty: true
         stdin_open: true
         restart: always
@@ -137,6 +185,7 @@ networks:
         ipam:
             config:
                 - subnet: "10.10.1.0/24"
+                
     vlan-dmz:
         driver: macvlan
         ipam: 
