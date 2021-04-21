@@ -1,0 +1,17 @@
+[entryPoints]
+  [entryPoints.web]
+    address = ":80"
+  [entryPoints.websecure]
+    address = ":443"
+  [entryPoints.webmin]
+    address = ":10000"
+
+[accessLog]
+
+[api]
+  dashboard = true
+  insecure = true
+
+[providers.docker]
+  watch = true
+  exposedByDefault = false

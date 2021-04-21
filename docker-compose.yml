@@ -47,11 +47,11 @@ services:
     ## === FW ===
     whoami:
         image: "traefik/whoami"
-        container_name: "simple-service"
         labels:
-            - traefik.enable=true
-            - traefik.frontend.rule=PathPrefixStrip:/testpath
-            - traefil.docker.network=vlan-fw
+            - 'traefik.enable=true'
+            - 'traefik.http.routers.whoami.rule=PathPrefix(`/whoami`)'
+            - 'traefik.http.services.whoami.loadbalancer.server.port=80'
+            - 'traefik.http.routers.whoami.entrypoints=web'
         networks: 
             vlan-dmz:
                 ipv4_address: 10.10.2.6
@@ -69,18 +69,16 @@ services:
         depends_on: 
             - apache
             - dns
+            - whoami
         environment: 
             - TZ="America/Denver"
         volumes: 
-            - /var/run/docker.sock:/var/run/docker.sock
-            - ./docker/firewall/traefik.yml:/etc/traefik/traefik.yml
+            - /var/run/docker.sock:/var/run/docker.sock:ro
+            - ./docker/firewall/traefik.toml:/traefik.toml
         deploy:
             placement:
                 constraints:
                     - node.role == manager
-            labels:
-                - traefil.docker.network=vlan-fw
-                - traefik.http.services.traefik.loadbalancer.server.port=8080
         networks: 
             vlan-fw:
                 ipv4_address: 10.10.1.254
@@ -126,13 +124,11 @@ services:
         networks: 
             vlan-dmz:
                 ipv4_address: 10.10.2.2
-        ports:
-            - "8081:8081"
         labels:
-            - "traefik.enable=true"
-            - traefil.docker.network=vlan-fw
-            - "traefik.http.routers.apache.entrypoints=web"
-            - "traefik.port=8081"
+            - 'traefik.enable=true'
+            - 'traefik.http.routers.apache.rule=PathPrefix(`/`)'
+            - 'traefik.http.services.apache.loadbalancer.server.port=80'
+            - 'traefik.http.routers.apache.entrypoints=web'
 
     dns:
         build: ./docker/serveur_dmz/dns/
@@ -147,6 +143,11 @@ services:
         networks: 
             vlan-dmz:
                 ipv4_address: 10.10.2.3
+        labels:
+            - 'traefik.enable=true'
+            - 'traefik.http.routers.dns.rule=PathPrefix(`/`)'
+            - 'traefik.http.services.dns.loadbalancer.server.port=10000'
+            - 'traefik.http.routers.dns.entrypoints=webmin'
     
     syslog:
         build: ./docker/serveur_dmz/syslog-ng/
