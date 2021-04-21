@@ -6,10 +6,10 @@ services:
     ## DO NOT use container_name field to manually specify container name, when scaling to more than one container, that will result in an error
     
     ## === ZUI ===
-    poste-utilisateur:
+    poste-utilisateur-patron:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
         # this image is based on mysql docker image and it already contains a dump from BEST database
-        build: ./docker/poste_utilisateur/
+        build: ./docker/poste_utilisateur/patron/
         tty: true
         stdin_open: true
         ## restart on crash
@@ -23,6 +23,28 @@ services:
         networks: 
             vlan-zui:
                 ipv4_address: 10.10.3.2
+    
+    post-utilisateur-bob:
+        build: ./docker/poste_utilisateur/bob/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports:
+            - "22:22"
+        networks: 
+            vlan-zui:
+                ipv4_address: 10.10.3.3
+
+    post-utilisateur-alice:
+        build: ./docker/poste_utilisateur/alice/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports:
+            - "22:22"
+        networks: 
+            vlan-zui:
+                ipv4_address: 10.10.3.4
             
     
     ## === INTERNET ===
@@ -88,32 +110,6 @@ services:
                 ipv4_address: 10.10.3.42
             vlan-dmz:
                 ipv4_address: 10.10.2.42
-
-    # vyos:
-    #     image: 2stacks/vyos
-    #     tty: true
-    #     stdin_open: true
-    #     restart: always
-    #     privileged: true
-    #     container_name: vyos
-    #     cap_add:
-    #         - NET_ADMIN
-    #     devices:
-    #         - /dev/net/tun
-    #     volumes:
-    #         - "/lib/modules:/lib/modules:ro" 
-    #         - "./docker/firewall/vyos_data/config.init:/config.init"
-    #     entrypoint:
-    #         - /sbin/init
-    #     networks: 
-    #         vlan-fw:
-    #             ipv4_address: 10.10.1.254
-    #         frontend:
-    #             ipv4_address: 10.10.0.42
-    #         vlan-zui:
-    #             ipv4_address: 10.10.3.42
-    #         vlan-dmz:
-    #             ipv4_address: 10.10.2.42
 
     ## === DMZ ===
     apache:
