@@ -5,6 +5,8 @@
     address = ":443"
   [entryPoints.webmin]
     address = ":10000"
+  [entryPoints.dns]
+    address = ":53"
 
 [accessLog]
 

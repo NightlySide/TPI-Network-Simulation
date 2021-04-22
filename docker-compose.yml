@@ -141,10 +141,17 @@ services:
                 ipv4_address: 10.10.2.3
         labels:
             - 'traefik.enable=true'
+
+            - 'traefik.http.routers.dns-webmin.rule=PathPrefix(`/`)'
+            - 'traefik.http.services.dns-webmin.loadbalancer.server.port=10000'
+            - 'traefik.http.routers.dns-webmin.entrypoints=webmin'
+            - 'traefik.http.routers.dns-webmin.service=dns'
+
             - 'traefik.http.routers.dns.rule=PathPrefix(`/`)'
-            - 'traefik.http.services.dns.loadbalancer.server.port=10000'
-            - 'traefik.http.routers.dns.entrypoints=webmin'
-    
+            - 'traefik.http.services.dns.loadbalancer.server.port=53'
+            - 'traefik.http.routers.dns.entrypoints=dns'
+            - 'traefik.http.routers.dns.service=dns'
+
     syslog:
         build: ./docker/serveur_dmz/syslog-ng/
         tty: true
