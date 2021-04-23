@@ -1,0 +1,280 @@
+23/4/2021 -- 12:32:42 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 12:32:42 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 12:32:42 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 12:32:42 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 12:32:42 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 12:32:42 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 12:32:42 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 12:32:42 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 12:32:42 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 12:32:45 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 12:32:52 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 12:32:52 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 12:32:52 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 12:32:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 12:32:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 12:32:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 12:32:52 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 12:33:23 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:33:23 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:33:23 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 12:33:24 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 12:33:24 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 12:33:24 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 12:33:45 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 12:33:45 - <Info> - time elapsed 21.735s
+23/4/2021 -- 12:33:46 - <Info> - Alerts: 0
+23/4/2021 -- 12:33:46 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 12:33:46 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 12:33:46 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:33:46 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:58:23 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 12:58:23 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 12:58:23 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 12:58:23 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 12:58:23 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 12:58:23 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 12:58:23 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 12:58:23 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 12:58:23 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 12:58:25 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 12:58:32 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 12:58:32 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 12:58:33 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 12:58:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 12:58:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 12:58:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 12:58:33 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 12:59:04 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:59:04 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 12:59:04 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 12:59:04 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 12:59:04 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 12:59:04 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:01:15 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:01:15 - <Info> - time elapsed 131.095s
+23/4/2021 -- 13:01:16 - <Info> - Alerts: 0
+23/4/2021 -- 13:01:16 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:01:16 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:01:16 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:01:16 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:03:05 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:03:05 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:03:05 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:03:05 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:03:05 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:03:05 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:03:05 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:03:05 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:03:05 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:03:07 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:03:14 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:03:14 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:03:14 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:03:14 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:03:14 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:03:14 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:03:14 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:03:45 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:03:45 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:03:45 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:03:45 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:03:45 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:03:46 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:03:51 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:03:51 - <Info> - time elapsed 5.817s
+23/4/2021 -- 13:03:52 - <Info> - Alerts: 0
+23/4/2021 -- 13:03:52 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:03:52 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:03:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:03:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:04:17 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:04:17 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:04:17 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:04:17 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:04:17 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:04:17 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:04:17 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:04:17 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:04:17 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:04:19 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:04:26 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:04:26 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:04:26 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:04:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:04:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:04:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:04:26 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:04:56 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:04:56 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:04:56 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:04:56 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:04:56 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:04:56 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:11:12 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:11:12 - <Info> - time elapsed 376.750s
+23/4/2021 -- 13:11:13 - <Info> - Alerts: 0
+23/4/2021 -- 13:11:13 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:11:13 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:11:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:11:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:11:42 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:11:42 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:11:42 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:11:42 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:11:42 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:11:42 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:11:42 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:11:42 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:11:42 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:11:44 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:11:50 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:11:50 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:11:50 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:11:50 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:11:50 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:11:50 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:11:50 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:12:34 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:12:34 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:12:35 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:12:35 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:12:35 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:12:35 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:12:35 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:12:35 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:12:35 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:12:37 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:12:44 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:12:44 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:12:44 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:12:44 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:12:44 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:12:44 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:12:44 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:13:14 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:13:14 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:13:14 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:13:14 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:13:14 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:13:14 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:25:29 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:25:29 - <Info> - time elapsed 735.156s
+23/4/2021 -- 13:25:30 - <Info> - Alerts: 0
+23/4/2021 -- 13:25:30 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:25:30 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:25:30 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:25:30 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:27:53 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:27:53 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:27:54 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:27:54 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:27:54 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:27:54 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:27:54 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:27:54 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:27:54 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:27:56 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:28:02 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:28:02 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:28:02 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:28:02 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:28:02 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:28:02 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:28:02 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:28:33 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:28:33 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:28:33 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:28:33 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:28:33 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:28:34 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:29:46 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:29:46 - <Info> - time elapsed 72.874s
+23/4/2021 -- 13:29:47 - <Info> - Alerts: 0
+23/4/2021 -- 13:29:47 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:29:47 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:29:47 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:29:47 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:54:03 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:54:03 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:54:03 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:54:03 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:54:03 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:54:03 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:54:03 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:54:03 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:54:03 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:54:05 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:54:12 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:54:12 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:54:12 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:54:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:54:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:54:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:54:12 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:54:42 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:54:42 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:54:42 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:54:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:54:42 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:54:42 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 13:54:59 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 13:55:00 - <Info> - time elapsed 17.770s
+23/4/2021 -- 13:55:00 - <Info> - Alerts: 0
+23/4/2021 -- 13:55:01 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 13:55:01 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 13:55:01 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:55:01 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:56:13 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 13:56:13 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 13:56:13 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:56:13 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 13:56:13 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 13:56:13 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 13:56:13 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 13:56:13 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:56:13 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 13:56:16 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 13:56:23 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 13:56:23 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 13:56:23 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 13:56:23 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 13:56:23 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 13:56:23 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 13:56:23 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 13:56:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:56:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 13:56:52 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 13:56:52 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 13:56:52 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 13:56:53 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:06:10 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:06:10 - <Info> - time elapsed 557.628s
+23/4/2021 -- 14:06:10 - <Info> - Alerts: 0
+23/4/2021 -- 14:06:11 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:06:11 - <Notice> - Stats for 'eth0':  pkts: 1, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:06:11 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:06:11 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:08:00 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:08:00 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:08:00 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:08:00 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:08:00 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:08:00 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:08:00 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:08:00 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:08:00 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:08:03 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 14:08:09 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:08:09 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:08:09 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 14:08:09 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 14:08:09 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 14:08:09 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 14:08:09 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 14:08:38 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:08:38 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:08:38 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:08:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:08:38 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:08:38 - <Info> - All AFP capture threads are running.

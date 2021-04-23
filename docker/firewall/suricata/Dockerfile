@@ -1,0 +1,1 @@
+FROM dtagdevsec/suricata:2006

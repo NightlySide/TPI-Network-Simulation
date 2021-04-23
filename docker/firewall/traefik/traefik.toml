@@ -7,6 +7,8 @@
     address = ":10000"
   [entryPoints.dns]
     address = ":53"
+  [entryPoints.kibana]
+    address = ":5601"
 
 [accessLog]
 

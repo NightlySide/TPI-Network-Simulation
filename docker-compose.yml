@@ -79,7 +79,7 @@ services:
                 ipv4_address: 10.10.2.6
 
     traefik:
-        image: "traefik:latest"
+        build: ./docker/firewall/traefik/
         tty: true
         stdin_open: true
         restart: always
@@ -96,7 +96,7 @@ services:
             - TZ="America/Denver"
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock:ro
-            - ./docker/firewall/traefik.toml:/traefik.toml
+            - ./docker/firewall/traefik/traefik.toml:/traefik.toml
         deploy:
             placement:
                 constraints:
@@ -110,6 +110,67 @@ services:
                 ipv4_address: 10.10.3.42
             vlan-dmz:
                 ipv4_address: 10.10.2.42
+
+    suricata:
+        build: ./docker/firewall/suricata/
+        tty: true
+        stdin_open: true
+        restart: always
+        networks: 
+            vlan-fw:
+                ipv4_address: 10.10.1.250
+        logging:
+            driver: "json-file"
+            options:
+                max-size: 10m
+                max-file: "3"
+                labels: "production_status"
+                env: "os"
+        environment:
+            - OINKCODE=OPEN
+        cap_add:
+            - NET_ADMIN
+            - SYS_NICE
+            - NET_RAW
+        volumes:
+            - ./docker/firewall/suricata/suricata_log:/var/log/suricata
+            - ./docker/firewall/suricata/suricata.rules:/etc/suricata/rules/suricata.rules
+    
+    elasticsearch:
+        build: ./docker/firewall/elasticsearch/
+        tty: true
+        stdin_open: true
+        restart: always
+        environment:
+            - discovery.type=single-node
+        networks: 
+            vlan-fw:
+                ipv4_address: 10.10.1.249
+        ports:
+            - "9200:9200"
+        volumes:
+            - ./docker/firewall/suricata/suricata_log/:/usr/share/elasticsearch/data/
+            
+    
+    kibana:
+        build: ./docker/firewall/kibana/
+        tty: true
+        stdin_open: true
+        restart: always
+        networks: 
+            vlan-fw:
+                ipv4_address: 10.10.1.248
+        depends_on: 
+            - elasticsearch
+        ports:
+            - "5601:5601"
+        environment: 
+            - ELASTICSEARCH_URL=http://10.10.1.249:9200
+        labels:
+            - 'traefik.enable=true'
+            - 'traefik.http.routers.kibana.rule=PathPrefix(`/`)'
+            - 'traefik.http.services.kibana.loadbalancer.server.port=5601'
+            - 'traefik.http.routers.kibana.entrypoints=kibana'
 
     ## === DMZ ===
     apache:
