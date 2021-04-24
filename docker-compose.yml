@@ -119,22 +119,13 @@ services:
         networks: 
             vlan-fw:
                 ipv4_address: 10.10.1.250
-        logging:
-            driver: "json-file"
-            options:
-                max-size: 10m
-                max-file: "3"
-                labels: "production_status"
-                env: "os"
-        environment:
-            - OINKCODE=OPEN
         cap_add:
             - NET_ADMIN
-            - SYS_NICE
-            - NET_RAW
+            - SYS_ADMIN
         volumes:
             - ./docker/firewall/suricata/suricata_log:/var/log/suricata
-            - ./docker/firewall/suricata/suricata.rules:/etc/suricata/rules/suricata.rules
+            - ./docker/firewall/suricata/suricata.rules:/var/lib/suricata/rules/suricata.rules
+            - ./docker/firewall/suricata/suricata.yaml:/etc/suricata/suricata.yaml
     
     elasticsearch:
         build: ./docker/firewall/elasticsearch/
@@ -143,6 +134,10 @@ services:
         restart: always
         environment:
             - discovery.type=single-node
+        ulimits:
+            memlock:
+                soft: -1
+                hard: -1
         networks: 
             vlan-fw:
                 ipv4_address: 10.10.1.249
@@ -150,7 +145,6 @@ services:
             - "9200:9200"
         volumes:
             - ./docker/firewall/suricata/suricata_log/:/usr/share/elasticsearch/data/
-            
     
     kibana:
         build: ./docker/firewall/kibana/
@@ -164,14 +158,29 @@ services:
             - elasticsearch
         ports:
             - "5601:5601"
-        environment: 
-            - ELASTICSEARCH_URL=http://10.10.1.249:9200
         labels:
             - 'traefik.enable=true'
             - 'traefik.http.routers.kibana.rule=PathPrefix(`/`)'
             - 'traefik.http.services.kibana.loadbalancer.server.port=5601'
             - 'traefik.http.routers.kibana.entrypoints=kibana'
+        volumes: 
+            - ./docker/firewall/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
 
+    logstash:
+        build: './docker/firewall/logstash/'
+        depends_on:
+            - elasticsearch
+            - suricata
+        ports:
+            - '9600:9600'
+        volumes:
+            - './docker/firewall/suricata/suricata_log/eve.json:/var/log/eve.json'
+            - './docker/firewall/elasticsearch/to_elastic.conf:/usr/share/logstash/pipeline/logstash.conf'
+            - './docker/firewall/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml'
+        networks:
+            vlan-fw:
+                ipv4_address: 10.10.1.247
+        
     ## === DMZ ===
     apache:
         build: ./docker/serveur_dmz/web/

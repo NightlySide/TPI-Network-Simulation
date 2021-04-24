@@ -278,3 +278,366 @@
 23/4/2021 -- 14:08:38 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
 23/4/2021 -- 14:08:38 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
 23/4/2021 -- 14:08:38 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:13:12 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:13:12 - <Info> - time elapsed 273.772s
+23/4/2021 -- 14:13:12 - <Info> - Alerts: 0
+23/4/2021 -- 14:13:13 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:13:13 - <Notice> - Stats for 'eth0':  pkts: 1, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:13:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:13:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:13:47 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:13:47 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:13:47 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:13:47 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:13:47 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:13:47 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:13:47 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:13:47 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:13:47 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:13:49 - <Info> - Rule with ID 2026440 is bidirectional, but source and destination are the same, treating the rule as unidirectional
+23/4/2021 -- 14:13:56 - <Info> - 1 rule files processed. 28781 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:13:56 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:13:56 - <Info> - 28796 signatures processed. 1422 are IP-only rules, 7263 are inspecting packet payload, 19690 inspect application layer, 109 are decoder event only
+23/4/2021 -- 14:13:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.ButterflyJoin' is checked but not set. Checked in 2011296 and 0 other sigs
+23/4/2021 -- 14:13:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.Netwire.HB.1' is checked but not set. Checked in 2018282 and 0 other sigs
+23/4/2021 -- 14:13:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'ET.GenericPhish_Adobe' is checked but not set. Checked in 2023048 and 0 other sigs
+23/4/2021 -- 14:13:56 - <Warning> - [ERRCODE: SC_WARN_FLOWBIT(306)] - flowbit 'BE.Radmin.Challenge' is checked but not set. Checked in 2003480 and 0 other sigs
+23/4/2021 -- 14:14:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:14:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:14:27 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:14:27 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:14:27 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:14:27 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:23:01 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:23:01 - <Info> - time elapsed 514.387s
+23/4/2021 -- 14:23:02 - <Info> - Alerts: 0
+23/4/2021 -- 14:23:02 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:23:02 - <Notice> - Stats for 'eth0':  pkts: 1, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:23:02 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:23:02 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:23:52 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:23:52 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:23:52 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:23:52 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:23:52 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:23:52 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:23:52 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:23:52 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:23:52 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - bad option value formatting (possible missing semicolon) for keyword msg: '"Test" sid:1'
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert http any any -> any any (msg:"Test" sid:1;)" from file /var/lib/suricata/rules/suricata.rules at line 1
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - bad option value formatting (possible missing semicolon) for keyword msg: '"super test" sid:2'
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert tcp any any -> any any (msg:"super test" sid:2;)" from file /var/lib/suricata/rules/suricata.rules at line 2
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - bad option value formatting (possible missing semicolon) for keyword msg: '"super test 2" sid:3'
+23/4/2021 -- 14:23:52 - <Error> - [ERRCODE: SC_ERR_INVALID_SIGNATURE(39)] - error parsing signature "alert udp any any -> any any (msg:"super test 2" sid:3;)" from file /var/lib/suricata/rules/suricata.rules at line 3
+23/4/2021 -- 14:23:52 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 14:23:52 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:23:52 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:23:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:23:52 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:23:52 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:23:52 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:23:52 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:23:52 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:25:08 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:25:08 - <Info> - time elapsed 76.235s
+23/4/2021 -- 14:25:09 - <Info> - Alerts: 0
+23/4/2021 -- 14:25:09 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:25:09 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 14:25:09 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:25:09 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:25:36 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:25:36 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:25:36 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:25:36 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:25:36 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:25:36 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:25:36 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:25:36 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:25:36 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:25:36 - <Info> - 1 rule files processed. 3 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:25:36 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:25:36 - <Info> - 3 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:25:36 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:25:36 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:25:36 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:25:36 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:25:36 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:25:36 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:30:45 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:30:45 - <Info> - time elapsed 309.551s
+23/4/2021 -- 14:30:46 - <Info> - Alerts: 0
+23/4/2021 -- 14:30:46 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:30:46 - <Notice> - Stats for 'eth0':  pkts: 1, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:30:46 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:30:46 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:31:24 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:31:24 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:31:24 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:31:24 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:31:24 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:31:24 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:31:24 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:31:24 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:31:24 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:31:24 - <Info> - 1 rule files processed. 3 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:31:24 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:31:24 - <Info> - 3 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:31:25 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:31:25 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:31:25 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:31:25 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:31:25 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:31:25 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:31:57 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:31:57 - <Info> - time elapsed 32.218s
+23/4/2021 -- 14:31:57 - <Info> - Alerts: 0
+23/4/2021 -- 14:31:57 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:31:57 - <Notice> - Stats for 'eth0':  pkts: 0, drop: 0 (-nan%), invalid chksum: 0
+23/4/2021 -- 14:31:57 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:31:57 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:32:50 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:32:50 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:32:50 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:32:50 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:32:50 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:32:50 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:32:50 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:32:50 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:32:50 - <Info> - 1 rule files processed. 3 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:32:50 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:32:50 - <Info> - 3 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:32:50 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:32:50 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:32:50 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:32:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:32:50 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:32:51 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:36:12 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:36:13 - <Info> - time elapsed 202.502s
+23/4/2021 -- 14:36:13 - <Info> - Alerts: 0
+23/4/2021 -- 14:36:13 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:36:13 - <Notice> - Stats for 'eth0':  pkts: 297, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:36:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:36:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:36:50 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:36:50 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:36:50 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:36:50 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:36:50 - <Info> - Going to log the md5 sum of email body
+23/4/2021 -- 14:36:50 - <Info> - Going to log the md5 sum of email subject
+23/4/2021 -- 14:36:50 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:36:50 - <Info> - DNP3 log sub-module initialized.
+23/4/2021 -- 14:36:50 - <Info> - 1 rule files processed. 3 rules successfully loaded, 0 rules failed
+23/4/2021 -- 14:36:50 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:36:50 - <Info> - 3 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:36:50 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:36:50 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:36:50 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:36:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:36:50 - <Notice> - all 8 packet processing threads, 2 management threads initialized, engine started.
+23/4/2021 -- 14:36:50 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:38:38 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:38:38 - <Info> - time elapsed 108.404s
+23/4/2021 -- 14:38:39 - <Info> - Alerts: 0
+23/4/2021 -- 14:38:39 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:38:39 - <Notice> - Stats for 'eth0':  pkts: 206, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:38:39 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:38:39 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:39:12 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:39:12 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:39:13 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:39:13 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:39:13 - <Info> - fast output device (regular) initialized: fast.log
+23/4/2021 -- 14:39:13 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:39:13 - <Info> - stats output device (regular) initialized: stats.log
+23/4/2021 -- 14:39:13 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 14:39:13 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:39:13 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:39:13 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:39:13 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 14:39:13 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:39:13 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/4/2021 -- 14:39:13 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:49:59 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:49:59 - <Info> - time elapsed 646.615s
+23/4/2021 -- 14:50:00 - <Info> - Alerts: 0
+23/4/2021 -- 14:50:00 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:50:00 - <Notice> - Stats for 'eth0':  pkts: 1, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:50:00 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:50:00 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:50:38 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 14:50:38 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 14:50:39 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:50:39 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 14:50:39 - <Info> - fast output device (regular) initialized: fast.log
+23/4/2021 -- 14:50:39 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 14:50:39 - <Info> - stats output device (regular) initialized: stats.log
+23/4/2021 -- 14:50:39 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 14:50:39 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 14:50:39 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:50:39 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 14:50:39 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 14:50:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 14:50:39 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/4/2021 -- 14:50:39 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 14:57:20 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 14:57:20 - <Info> - time elapsed 401.286s
+23/4/2021 -- 14:57:20 - <Info> - Alerts: 0
+23/4/2021 -- 14:57:20 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 14:57:20 - <Notice> - Stats for 'eth0':  pkts: 2, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 14:57:20 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 14:57:20 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:00:43 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 16:00:43 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 16:00:43 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 16:00:43 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 16:00:43 - <Info> - fast output device (regular) initialized: fast.log
+23/4/2021 -- 16:00:43 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 16:00:43 - <Info> - stats output device (regular) initialized: stats.log
+23/4/2021 -- 16:00:43 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 16:00:43 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 16:00:43 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:00:43 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:00:43 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 16:00:43 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 16:00:43 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/4/2021 -- 16:00:44 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 16:01:06 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 16:01:06 - <Info> - time elapsed 22.450s
+23/4/2021 -- 16:01:07 - <Info> - Alerts: 0
+23/4/2021 -- 16:01:07 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 16:01:07 - <Notice> - Stats for 'eth0':  pkts: 3, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 16:01:07 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:01:07 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:02:08 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 16:02:08 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 16:02:08 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 16:02:08 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 16:02:08 - <Info> - fast output device (regular) initialized: fast.log
+23/4/2021 -- 16:02:08 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 16:02:08 - <Info> - stats output device (regular) initialized: stats.log
+23/4/2021 -- 16:02:08 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 16:02:08 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 16:02:08 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 16:02:08 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 16:02:08 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 16:02:08 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 16:02:08 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/4/2021 -- 16:02:09 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 17:59:26 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 17:59:26 - <Info> - time elapsed 7037.598s
+23/4/2021 -- 17:59:26 - <Info> - Alerts: 0
+23/4/2021 -- 17:59:26 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 17:59:27 - <Notice> - Stats for 'eth0':  pkts: 5, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 17:59:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 17:59:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 17:59:56 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+23/4/2021 -- 17:59:56 - <Info> - CPUs/cores online: 8
+23/4/2021 -- 17:59:56 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 17:59:56 - <Info> - Found an MTU of 1500 for 'eth0'
+23/4/2021 -- 17:59:56 - <Info> - fast output device (regular) initialized: fast.log
+23/4/2021 -- 17:59:56 - <Info> - eve-log output device (regular) initialized: eve.json
+23/4/2021 -- 17:59:56 - <Info> - stats output device (regular) initialized: stats.log
+23/4/2021 -- 17:59:56 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+23/4/2021 -- 17:59:56 - <Info> - Threshold config parsed: 0 rule(s) found
+23/4/2021 -- 17:59:56 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 17:59:56 - <Info> - Going to use 8 thread(s)
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+23/4/2021 -- 17:59:56 - <Info> - Running in live mode, activating unix socket
+23/4/2021 -- 17:59:56 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+23/4/2021 -- 17:59:56 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+23/4/2021 -- 17:59:56 - <Info> - All AFP capture threads are running.
+23/4/2021 -- 19:42:26 - <Notice> - Signal Received.  Stopping engine.
+23/4/2021 -- 19:42:26 - <Info> - time elapsed 6150.389s
+23/4/2021 -- 19:42:27 - <Info> - Alerts: 0
+23/4/2021 -- 19:42:27 - <Info> - cleaning up signature grouping structure... complete
+23/4/2021 -- 19:42:27 - <Notice> - Stats for 'eth0':  pkts: 10144, drop: 0 (0.00%), invalid chksum: 0
+23/4/2021 -- 19:42:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+23/4/2021 -- 19:42:27 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+24/4/2021 -- 11:22:01 - <Notice> - This is Suricata version 6.0.1 RELEASE running in SYSTEM mode
+24/4/2021 -- 11:22:01 - <Info> - CPUs/cores online: 8
+24/4/2021 -- 11:22:01 - <Info> - Found an MTU of 1500 for 'eth0'
+24/4/2021 -- 11:22:01 - <Info> - Found an MTU of 1500 for 'eth0'
+24/4/2021 -- 11:22:01 - <Info> - fast output device (regular) initialized: fast.log
+24/4/2021 -- 11:22:01 - <Info> - eve-log output device (regular) initialized: eve.json
+24/4/2021 -- 11:22:01 - <Info> - stats output device (regular) initialized: stats.log
+24/4/2021 -- 11:22:01 - <Info> - Running in live mode, activating unix socket
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+24/4/2021 -- 11:22:01 - <Info> - Threshold config parsed: 0 rule(s) found
+24/4/2021 -- 11:22:01 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_SYSCALL(50)] - Failure when trying to set feature via ioctl for 'eth0': Not supported (95)
+24/4/2021 -- 11:22:01 - <Info> - Going to use 8 thread(s)
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Warning> - [ERRCODE: SC_ERR_FOPEN(44)] - Error opening file: "/usr/share/file/magic": No such file or directory
+24/4/2021 -- 11:22:01 - <Info> - Running in live mode, activating unix socket
+24/4/2021 -- 11:22:01 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+24/4/2021 -- 11:22:01 - <Notice> - all 8 packet processing threads, 4 management threads initialized, engine started.
+24/4/2021 -- 11:22:02 - <Info> - All AFP capture threads are running.

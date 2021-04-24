@@ -1,0 +1,4 @@
+server.host: 0.0.0.0
+server.port: 5601
+elasticsearch.hosts: ["http://10.10.1.249:9200"]
+elasticsearch.requestTimeout: 90000

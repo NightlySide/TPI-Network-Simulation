@@ -1,0 +1,6 @@
+
+path.data: /usr/share/logstash
+pipeline.workers: 2
+pipeline.ordered: auto
+path.logs: /var/log/logstash
+xpack.monitoring.enabled: false
