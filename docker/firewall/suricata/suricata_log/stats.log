@@ -33571,3 +33571,2275 @@ flow.spare                                    | Total                     | 1000
 tcp.memuse                                    | Total                     | 4587520
 tcp.reassembly_memuse                         | Total                     | 786432
 flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:24:41 (uptime: 0d, 00h 02m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:24:49 (uptime: 0d, 00h 02m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:24:57 (uptime: 0d, 00h 02m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:05 (uptime: 0d, 00h 03m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:13 (uptime: 0d, 00h 03m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:21 (uptime: 0d, 00h 03m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:29 (uptime: 0d, 00h 03m 28s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:37 (uptime: 0d, 00h 03m 36s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:45 (uptime: 0d, 00h 03m 44s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:25:53 (uptime: 0d, 00h 03m 52s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:01 (uptime: 0d, 00h 04m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:09 (uptime: 0d, 00h 04m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:17 (uptime: 0d, 00h 04m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:25 (uptime: 0d, 00h 04m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:33 (uptime: 0d, 00h 04m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:41 (uptime: 0d, 00h 04m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:49 (uptime: 0d, 00h 04m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:26:57 (uptime: 0d, 00h 04m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:05 (uptime: 0d, 00h 05m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:13 (uptime: 0d, 00h 05m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:21 (uptime: 0d, 00h 05m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:29 (uptime: 0d, 00h 05m 28s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:37 (uptime: 0d, 00h 05m 36s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:45 (uptime: 0d, 00h 05m 44s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:27:53 (uptime: 0d, 00h 05m 52s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:01 (uptime: 0d, 00h 06m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:09 (uptime: 0d, 00h 06m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:17 (uptime: 0d, 00h 06m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:25 (uptime: 0d, 00h 06m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:33 (uptime: 0d, 00h 06m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:41 (uptime: 0d, 00h 06m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:49 (uptime: 0d, 00h 06m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:28:57 (uptime: 0d, 00h 06m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:05 (uptime: 0d, 00h 07m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:13 (uptime: 0d, 00h 07m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:21 (uptime: 0d, 00h 07m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:29 (uptime: 0d, 00h 07m 28s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:37 (uptime: 0d, 00h 07m 36s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:45 (uptime: 0d, 00h 07m 44s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:29:53 (uptime: 0d, 00h 07m 52s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:01 (uptime: 0d, 00h 08m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:09 (uptime: 0d, 00h 08m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:17 (uptime: 0d, 00h 08m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:25 (uptime: 0d, 00h 08m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:33 (uptime: 0d, 00h 08m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:41 (uptime: 0d, 00h 08m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:49 (uptime: 0d, 00h 08m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:30:57 (uptime: 0d, 00h 08m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:05 (uptime: 0d, 00h 09m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:13 (uptime: 0d, 00h 09m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:21 (uptime: 0d, 00h 09m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:29 (uptime: 0d, 00h 09m 28s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:37 (uptime: 0d, 00h 09m 36s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:45 (uptime: 0d, 00h 09m 44s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:31:53 (uptime: 0d, 00h 09m 52s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:01 (uptime: 0d, 00h 10m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:09 (uptime: 0d, 00h 10m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:17 (uptime: 0d, 00h 10m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:25 (uptime: 0d, 00h 10m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:33 (uptime: 0d, 00h 10m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:41 (uptime: 0d, 00h 10m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:49 (uptime: 0d, 00h 10m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:32:57 (uptime: 0d, 00h 10m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:05 (uptime: 0d, 00h 11m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:13 (uptime: 0d, 00h 11m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:21 (uptime: 0d, 00h 11m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:29 (uptime: 0d, 00h 11m 28s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:37 (uptime: 0d, 00h 11m 36s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:45 (uptime: 0d, 00h 11m 44s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:33:53 (uptime: 0d, 00h 11m 52s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:34:01 (uptime: 0d, 00h 12m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 4
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:34:09 (uptime: 0d, 00h 12m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 4
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:40:47 (uptime: 0d, 00h 00m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:40:55 (uptime: 0d, 00h 00m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 4
+decoder.pkts                                  | Total                     | 4
+decoder.bytes                                 | Total                     | 168
+decoder.ethernet                              | Total                     | 4
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:41:03 (uptime: 0d, 00h 00m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 4
+decoder.pkts                                  | Total                     | 4
+decoder.bytes                                 | Total                     | 168
+decoder.ethernet                              | Total                     | 4
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:41:11 (uptime: 0d, 00h 00m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 4
+decoder.pkts                                  | Total                     | 4
+decoder.bytes                                 | Total                     | 168
+decoder.ethernet                              | Total                     | 4
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:41:12 (uptime: 0d, 00h 00m 33s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 4
+decoder.pkts                                  | Total                     | 4
+decoder.bytes                                 | Total                     | 168
+decoder.ethernet                              | Total                     | 4
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:42:21 (uptime: 0d, 00h 00m 08s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:42:29 (uptime: 0d, 00h 00m 16s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 3
+decoder.pkts                                  | Total                     | 3
+decoder.bytes                                 | Total                     | 126
+decoder.ethernet                              | Total                     | 3
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:42:37 (uptime: 0d, 00h 00m 24s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 4
+decoder.pkts                                  | Total                     | 4
+decoder.bytes                                 | Total                     | 168
+decoder.ethernet                              | Total                     | 4
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:42:45 (uptime: 0d, 00h 00m 32s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:42:53 (uptime: 0d, 00h 00m 40s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:01 (uptime: 0d, 00h 00m 48s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:09 (uptime: 0d, 00h 00m 56s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:17 (uptime: 0d, 00h 01m 04s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:25 (uptime: 0d, 00h 01m 12s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:33 (uptime: 0d, 00h 01m 20s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:42 (uptime: 0d, 00h 01m 29s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:50 (uptime: 0d, 00h 01m 37s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:43:58 (uptime: 0d, 00h 01m 45s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:06 (uptime: 0d, 00h 01m 53s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:14 (uptime: 0d, 00h 02m 01s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:22 (uptime: 0d, 00h 02m 09s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:30 (uptime: 0d, 00h 02m 17s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:38 (uptime: 0d, 00h 02m 25s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:46 (uptime: 0d, 00h 02m 33s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:44:54 (uptime: 0d, 00h 02m 41s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:02 (uptime: 0d, 00h 02m 49s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:10 (uptime: 0d, 00h 02m 57s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:18 (uptime: 0d, 00h 03m 05s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:26 (uptime: 0d, 00h 03m 13s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:34 (uptime: 0d, 00h 03m 21s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:42 (uptime: 0d, 00h 03m 29s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:50 (uptime: 0d, 00h 03m 37s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:45:58 (uptime: 0d, 00h 03m 45s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:06 (uptime: 0d, 00h 03m 53s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:14 (uptime: 0d, 00h 04m 01s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:22 (uptime: 0d, 00h 04m 09s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:30 (uptime: 0d, 00h 04m 17s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:38 (uptime: 0d, 00h 04m 25s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:46 (uptime: 0d, 00h 04m 33s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:46:54 (uptime: 0d, 00h 04m 41s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:02 (uptime: 0d, 00h 04m 49s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:10 (uptime: 0d, 00h 04m 57s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:18 (uptime: 0d, 00h 05m 05s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:26 (uptime: 0d, 00h 05m 13s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:34 (uptime: 0d, 00h 05m 21s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:42 (uptime: 0d, 00h 05m 29s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:50 (uptime: 0d, 00h 05m 37s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:47:58 (uptime: 0d, 00h 05m 45s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:06 (uptime: 0d, 00h 05m 53s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:14 (uptime: 0d, 00h 06m 01s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:22 (uptime: 0d, 00h 06m 09s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:30 (uptime: 0d, 00h 06m 17s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:38 (uptime: 0d, 00h 06m 25s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:46 (uptime: 0d, 00h 06m 33s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:48:54 (uptime: 0d, 00h 06m 41s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:02 (uptime: 0d, 00h 06m 49s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:10 (uptime: 0d, 00h 06m 57s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:18 (uptime: 0d, 00h 07m 05s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:26 (uptime: 0d, 00h 07m 13s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:34 (uptime: 0d, 00h 07m 21s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:42 (uptime: 0d, 00h 07m 29s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:50 (uptime: 0d, 00h 07m 37s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:49:58 (uptime: 0d, 00h 07m 45s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:06 (uptime: 0d, 00h 07m 53s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 2
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:14 (uptime: 0d, 00h 08m 01s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:22 (uptime: 0d, 00h 08m 09s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:30 (uptime: 0d, 00h 08m 17s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:38 (uptime: 0d, 00h 08m 25s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:46 (uptime: 0d, 00h 08m 33s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 4/24/2021 -- 11:50:48 (uptime: 0d, 00h 08m 35s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+capture.kernel_packets                        | Total                     | 5
+decoder.pkts                                  | Total                     | 5
+decoder.bytes                                 | Total                     | 210
+decoder.ethernet                              | Total                     | 5
+decoder.avg_pkt_size                          | Total                     | 42
+decoder.max_pkt_size                          | Total                     | 42
+flow.mgr.full_hash_pass                       | Total                     | 3
+flow.spare                                    | Total                     | 10000
+tcp.memuse                                    | Total                     | 4587520
+tcp.reassembly_memuse                         | Total                     | 786432
+flow.memuse                                   | Total                     | 7394304
