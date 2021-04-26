@@ -1,0 +1,1 @@
+FROM capybara1/firewall:latest
