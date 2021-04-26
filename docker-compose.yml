@@ -97,6 +97,8 @@ services:
             router:
             frontend:
                 ipv4_address: 10.10.0.42
+            vlan-dmz:
+                ipv4_address: 10.10.2.42
 
     ## === FW ===
     whoami:
@@ -232,8 +234,6 @@ services:
         networks: 
             vlan-dmz:
                 ipv4_address: 10.10.2.4
-
- 
 
 networks: 
     frontend:
