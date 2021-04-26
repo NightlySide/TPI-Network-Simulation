@@ -1,4 +1,9 @@
-FROM ubuntu
+FROM atomicorp/ossec-docker
 
-# Update the repository sources list
-RUN apt-get update -qq 
+# copy config
+COPY ossec.conf /var/ossec/etc/ossec.conf
+
+# restart ossec
+#RUN ["/var/ossec/bin/syscheck_update", "-a"]
+#RUN ["/var/ossec/bin/syscheck_update", "-l"]
+#RUN ["/var/ossec/bin/ossec-control", "restart"]

@@ -50,4 +50,22 @@ Ainsi nous allons décrire chaque machine, les configurer, créer des réseaux v
 
 -> expliquer pourquoi pas pfsense et comment on a trouvé l'autre
 
+### Définition des règles de filtrage
+
+### Durcissement configuration
+
+## Utilisation de Syslog-ng pour les logs FW et Serveur
+
+-> logs centralisés via le protocole syslog, serveur de collecte sous syslog-ng
+
+## Mise en place de la défense réseau avec Suricata
+
+-> Activer la fonction IDS, préciser les interfaces surveillées, quels sont les avantages inconvénients, utilisation jeu de règle standard, envoie des alertes sur serveur de collecte, tester depuis zone internet avec scan nmap
+
+## Mécanisme de défense hôte avec OSSEC
+
+-> configuration des fonctions principales: vérification d'intégrité, détection de rootkit, collecte de logs...
+
 ## Attaque avec metasploit
+
+-> attaquer de l'extérieur et de l'intérieur, voir comment le système réagit, quels sont les alertes remontées

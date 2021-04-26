@@ -4,7 +4,7 @@ version: "3.1"
 services:
     ## service name, NOT the name of the container (that gets assigned automatically)
     ## DO NOT use container_name field to manually specify container name, when scaling to more than one container, that will result in an error
-    
+
     ## === ZUI ===
     poste-utilisateur-patron:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
@@ -20,10 +20,10 @@ services:
         ports:
             # host:container
             - "2221:22"
-        networks: 
+        networks:
             vlan-zui:
                 ipv4_address: 10.10.3.2
-    
+
     post-utilisateur-bob:
         build: ./docker/poste_utilisateur/bob/
         tty: true
@@ -31,7 +31,7 @@ services:
         restart: always
         ports:
             - "22:22"
-        networks: 
+        networks:
             vlan-zui:
                 ipv4_address: 10.10.3.3
 
@@ -42,11 +42,10 @@ services:
         restart: always
         ports:
             - "22:22"
-        networks: 
+        networks:
             vlan-zui:
                 ipv4_address: 10.10.3.4
-            
-    
+
     ## === INTERNET ===
     kali:
         ## image from which the conatiner should be built, equals to FROM in Dockerfile
@@ -62,10 +61,10 @@ services:
         ports:
             # host:container
             - "2222:22"
-        networks: 
+        networks:
             frontend:
                 ipv4_address: 10.10.0.2
-    
+
     ## ==== ROUTER ====
 
     traefik:
@@ -78,20 +77,20 @@ services:
             - "8080:8080"
         links:
             - dns
-        depends_on: 
+        depends_on:
             - apache
             - dns
             - whoami
-        environment: 
+        environment:
             - TZ="America/Denver"
-        volumes: 
+        volumes:
             - /var/run/docker.sock:/var/run/docker.sock:ro
             - ./docker/firewall/traefik/traefik.toml:/traefik.toml
         deploy:
             placement:
                 constraints:
                     - node.role == manager
-        networks: 
+        networks:
             vlan-fw:
                 ipv4_address: 10.10.1.254
             router:
@@ -104,11 +103,11 @@ services:
     whoami:
         image: "traefik/whoami"
         labels:
-            - 'traefik.enable=true'
-            - 'traefik.http.routers.whoami.rule=PathPrefix(`/whoami`)'
-            - 'traefik.http.services.whoami.loadbalancer.server.port=80'
-            - 'traefik.http.routers.whoami.entrypoints=web'
-        networks: 
+            - "traefik.enable=true"
+            - "traefik.http.routers.whoami.rule=PathPrefix(`/whoami`)"
+            - "traefik.http.services.whoami.loadbalancer.server.port=80"
+            - "traefik.http.routers.whoami.entrypoints=web"
+        networks:
             vlan-dmz:
                 ipv4_address: 10.10.2.6
 
@@ -117,7 +116,7 @@ services:
         tty: true
         stdin_open: true
         restart: always
-        networks: 
+        networks:
             vlan-fw:
                 ipv4_address: 10.10.1.250
         cap_add:
@@ -127,7 +126,7 @@ services:
             - ./docker/firewall/suricata/suricata_log:/var/log/suricata
             - ./docker/firewall/suricata/suricata.rules:/var/lib/suricata/rules/suricata.rules
             - ./docker/firewall/suricata/suricata.yaml:/etc/suricata/suricata.yaml
-    
+
     elasticsearch:
         build: ./docker/firewall/elasticsearch/
         tty: true
@@ -139,45 +138,45 @@ services:
             memlock:
                 soft: -1
                 hard: -1
-        networks: 
+        networks:
             vlan-fw:
                 ipv4_address: 10.10.1.249
         ports:
             - "9200:9200"
         volumes:
             - ./docker/firewall/suricata/suricata_log/:/usr/share/elasticsearch/data/
-    
+
     kibana:
         build: ./docker/firewall/kibana/
         tty: true
         stdin_open: true
         restart: always
-        networks: 
+        networks:
             vlan-fw:
                 ipv4_address: 10.10.1.248
-        depends_on: 
+        depends_on:
             - elasticsearch
         ports:
             - "5601:5601"
         labels:
-            - 'traefik.enable=true'
-            - 'traefik.http.routers.kibana.rule=PathPrefix(`/`)'
-            - 'traefik.http.services.kibana.loadbalancer.server.port=5601'
-            - 'traefik.http.routers.kibana.entrypoints=kibana'
-        volumes: 
+            - "traefik.enable=true"
+            - "traefik.http.routers.kibana.rule=PathPrefix(`/`)"
+            - "traefik.http.services.kibana.loadbalancer.server.port=5601"
+            - "traefik.http.routers.kibana.entrypoints=kibana"
+        volumes:
             - ./docker/firewall/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
 
     logstash:
-        build: './docker/firewall/logstash/'
+        build: "./docker/firewall/logstash/"
         depends_on:
             - elasticsearch
             - suricata
         ports:
-            - '9600:9600'
+            - "9600:9600"
         volumes:
-            - './docker/firewall/suricata/suricata_log/eve.json:/var/log/eve.json'
-            - './docker/firewall/elasticsearch/to_elastic.conf:/usr/share/logstash/pipeline/logstash.conf'
-            - './docker/firewall/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml'
+            - "./docker/firewall/suricata/suricata_log/eve.json:/var/log/eve.json"
+            - "./docker/firewall/elasticsearch/to_elastic.conf:/usr/share/logstash/pipeline/logstash.conf"
+            - "./docker/firewall/logstash/logstash.yml:/usr/share/logstash/config/logstash.yml"
         networks:
             vlan-fw:
                 ipv4_address: 10.10.1.247
@@ -203,80 +202,78 @@ services:
         tty: true
         stdin_open: true
         restart: always
-        networks: 
+        networks:
             vlan-dmz:
                 ipv4_address: 10.10.2.2
         labels:
-            - 'traefik.enable=true'
-            - 'traefik.http.routers.apache.rule=PathPrefix(`/`)'
-            - 'traefik.http.services.apache.loadbalancer.server.port=80'
-            - 'traefik.http.routers.apache.entrypoints=web'
+            - "traefik.enable=true"
+            - "traefik.http.routers.apache.rule=PathPrefix(`/`)"
+            - "traefik.http.services.apache.loadbalancer.server.port=80"
+            - "traefik.http.routers.apache.entrypoints=web"
 
     dns:
         build: ./docker/serveur_dmz/dns/
         tty: true
         stdin_open: true
         restart: always
-        ports: 
+        ports:
             - "53:53"
             - "10000:10000"
-        volumes: 
+        volumes:
             - /srv/docker/bind:/serveur_dmz/dns/data
-        networks: 
+        networks:
             vlan-dmz:
                 ipv4_address: 10.10.2.3
         labels:
-            - 'traefik.enable=true'
+            - "traefik.enable=true"
 
-            - 'traefik.http.routers.dns-webmin.rule=PathPrefix(`/`)'
-            - 'traefik.http.services.dns-webmin.loadbalancer.server.port=10000'
-            - 'traefik.http.routers.dns-webmin.entrypoints=webmin'
-            - 'traefik.http.routers.dns-webmin.service=dns'
+            - "traefik.http.routers.dns-webmin.rule=PathPrefix(`/`)"
+            - "traefik.http.services.dns-webmin.loadbalancer.server.port=10000"
+            - "traefik.http.routers.dns-webmin.entrypoints=webmin"
+            - "traefik.http.routers.dns-webmin.service=dns"
 
-            - 'traefik.http.routers.dns.rule=PathPrefix(`/`)'
-            - 'traefik.http.services.dns.loadbalancer.server.port=53'
-            - 'traefik.http.routers.dns.entrypoints=dns'
-            - 'traefik.http.routers.dns.service=dns'
+            - "traefik.http.routers.dns.rule=PathPrefix(`/`)"
+            - "traefik.http.services.dns.loadbalancer.server.port=53"
+            - "traefik.http.routers.dns.entrypoints=dns"
+            - "traefik.http.routers.dns.service=dns"
 
     syslog:
         build: ./docker/serveur_dmz/syslog-ng/
         tty: true
         stdin_open: true
         restart: always
-        ports: 
+        ports:
             - "514:514/udp"
             - "601:601/tcp"
-        networks: 
+        networks:
             vlan-dmz:
                 ipv4_address: 10.10.2.4
 
 networks: 
     frontend:
         driver: bridge
-        ipam: 
+        ipam:
             driver: default
-            config: 
+            config:
                 - subnet: "10.10.0.0/24"
-    
+
     router:
         driver: macvlan
-    
+
     vlan-fw:
         driver: macvlan
         ipam:
             config:
                 - subnet: "10.10.1.0/24"
-                
+
     vlan-dmz:
         driver: macvlan
-        ipam: 
+        ipam:
             config:
                 - subnet: "10.10.2.0/24"
 
     vlan-zui:
         driver: macvlan
         ipam:
-            config: 
+            config:
                 - subnet: "10.10.3.0/24"
-    
-    
