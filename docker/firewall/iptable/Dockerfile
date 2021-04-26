@@ -1,1 +1,1 @@
-FROM capybara1/firewall:lasted
+FROM capybara1/firewall:latest
