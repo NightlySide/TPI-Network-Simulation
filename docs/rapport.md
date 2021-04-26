@@ -24,6 +24,10 @@ Ce rapport décrit notre procédure et les évolutions du projet au fur et à me
 
 ![Schéma initial](imgs/schema_initial.jpg)
 
+```
+TODO: remplir en fonction du sujet
+```
+
 ## Technologie de virtualisation
 
 La toute première réflexion que nous avons était le choix de la technologie permettant de faire tourner nos multiples machines virtuelles. Le sujet nous proposant un minimum de 4 machines, il nous paraissait difficile de toutes les faire tourner sous VirtualBox ou VMWare en raison des limites de matériel à notre disposition, en effet nous travaillons majoritairement sur PC portable et nous sommes limités par la quantité de RAM et de puissance de calcul.
@@ -37,3 +41,11 @@ La technologie que nous avons décidé d'utiliser est [Docker](https://www.docke
 L'outil [docker-compose](https://docs.docker.com/compose/) va nous permettre de décrire les réseaux ainsi que les intéractions entre chaque image composant ce projet.
 
 Ainsi nous allons décrire chaque machine, les configurer, créer des réseaux virtuels et attribuer chaque machine à ces réseaux, mettre en place un pare-feu et ainsi de suite.
+
+## Création des sous-réseaux
+
+## Création du firewall
+
+-> expliquer pourquoi pas pfsense et comment on a trouvé l'autre
+
+## Attaque avec metasploit
