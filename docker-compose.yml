@@ -181,7 +181,22 @@ services:
         networks:
             vlan-fw:
                 ipv4_address: 10.10.1.247
-        
+    
+    iptable:
+        build: ./docker/firewall/iptable/
+        volumes: 
+            - ./docker/firewall/iptable/iptables:/host/etc/iptables:ro
+        networks: 
+            vlan-fw:
+                ipv4_address: 10.10.1.250
+            router:
+            frontend:
+                ipv4_address: 10.10.0.250
+            vlan-dmz:
+                ipv4_address: 10.10.2.250
+            vlan-zui:
+                ipv4_address: 10.10.3.250
+
     ## === DMZ ===
     apache:
         build: ./docker/serveur_dmz/web/
