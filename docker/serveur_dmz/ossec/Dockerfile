@@ -1,1 +1,0 @@
-FROM atomicorp/ossec-docker
