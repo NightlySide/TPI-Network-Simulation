@@ -44,6 +44,8 @@ Ainsi nous allons décrire chaque machine, les configurer, créer des réseaux v
 
 ## Création des sous-réseaux
 
+![Nouveau réseau obtenu](imgs/network.drawio.png)
+
 ## Création du firewall
 
 -> expliquer pourquoi pas pfsense et comment on a trouvé l'autre
