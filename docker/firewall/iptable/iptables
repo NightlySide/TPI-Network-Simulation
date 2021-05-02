@@ -1,0 +1,20 @@
+*filter
+
+# INIT
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [44:6020]
+
+# Basic input rules
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INOUT -i lo -m comment --comment "Loopback interface" -j ACCEPT
+
+# Specific rules WEB
+-A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 443 -j ACCEPT
+
+# Default REJECT LINE
+-A INPUT -j LOG --log-prefix DROPPED_INGRESS-
+
+COMMIT
