@@ -184,9 +184,13 @@ Ensuite nous avons autorisé le trafic web en ouvrant les ports 80 et 443 corres
 
 Pour terminer on autorise les logs a transiter sur le réseau. La dernière ligne permet d’enregistrer les règles sur le firewall.
 
-# Utilisation de Syslog-ng pour les logs FW et Serveur
+# Collecte logs FW et Serveur
 
--> logs centralisés via le protocole syslog, serveur de collecte sous syslog-ng
+Le sujet nous proposait d’utiliser le protocole syslog-ng afin de transférer les logs dans le système et enfin de pouvoir les collecter dans un serveur spécifique avant de les traiter dans une interface utilisateur dédié.
+
+Nous avons décidé d’utiliser un stack de services différent qui nous attirait plus. Nous sommes donc parti sur [Logstash](https://www.elastic.co/fr/logstash) un service permettant de collecter les logs issus d’une multitude de programme et de les “traduire” dans un format générique qui sera compris par les autres services d’analyse tels que Elasticsearch ou Kibana.
+
+Il suffira que **chaque capteur** dans le système, que ce soit au niveau firewall, niveau réseau ou niveau machine, puisse **envoyer ses logs** au service Logstash. Ce dernier se chargera de la traçabilité de l’information et du traitement de cette dernière.
 
 # Mise en place de la défense réseau avec Suricata
 
@@ -194,13 +198,15 @@ Pour terminer on autorise les logs a transiter sur le réseau. La dernière lign
 
 # Mécanisme de défense hôte avec OSSEC
 
--> configuration des fonctions principales: vérification d'intégrité, détection de rootkit, collecte de logs...
+OSSEC est un paquet **à installer sur chaque machine que nous souhaitons monitorer**. Cependant en raison du manque de temps et des tâches restantes nous avons décidé de partir sur une image docker incluant déjà OSSEC. Ainsi nous avons une machine linux tournant avec OSSEC. En conservant la configuration par défaut nous pouvons déjà monitorer quelques évènements et les envoyer à Logstash pour finir sur le serveur de collecte.
+
+Ce qui faut retenir de cette partie est que **OSSEC permet de faire du monitoring en tant que capteur au niveau d’une machine**. Il s’agit alors d’une sonde hôte. Parmi les évènements que l’on peut monitorer on retrouve la modification de contenu dans certains dossiers tels que `/etc/` ou encore la modification de droits, la création d’utilisateurs, le changement de configuration des groupes, etc… **Une des forces de OSSEC est sa capacité à détecter les rootkits et à vérifier l’intégrité du système.**
 
 # Affichage des logs avec Kibana
 
-Pour l’affichage des logs et leur recherche en filtrant les logs qui ne sont pas intéressant nous avons la possibilité d’utiliser elasticsearch ou Kibana. Nous avons décidé de rester sur Kibana qui était une solution plus légère. Avec Logstash en tant que middleware, le résultat sera le même.
+Pour l’affichage des logs et leur recherche en **filtrant les logs** qui ne sont pas intéressant nous avons la possibilité d’utiliser elasticsearch ou Kibana. Nous avons décidé de rester sur Kibana qui était une solution plus légère. Avec Logstash en tant que middleware, le résultat sera le même.
 
-Ainsi avec une configuration de base (à comprendre par défaut) nous pouvons déjà récupérer quelques logs de test et afficher le nombre d’évènement reçus sur le dashboard :
+Ainsi avec une **configuration de base** (à comprendre par défaut) nous pouvons déjà récupérer quelques logs de test et afficher le nombre d’évènement reçus sur le dashboard :
 
 ![Les logs s’affichent par ordre chronologique sur le dashboard Kibana](./imgs/kibana_logs.png)
 
@@ -258,6 +264,8 @@ Nmap done: 1 IP address (1 host up) scanned in 100.83 seconds
 **Enfin pour tester le fonctionnement de OSSEC** on pourrait déployer un payload sur la machine où est installée OSSEC et essayer de faire de la mitigation en insérant notre reverse shell (ou session meterpreter) dans un autre processus, ou en tentant une élévation de privilèges. 
 
 Dans ces deux derniers cas, suricata et OSSEC devraient générer une alerte ou un log qui sera envoyé au serveur de collecte. Dans ce cas **Logstash récupère ce log** qui est propre à chaque logiciel **pour le convertir en un log générique** qui sera ensuite “interprété” par Kibana pour afficher les informations pertinentes à l’OSSI ou au technicien surveillant le système.
+
+> **Note**: pour simplifier l’attaque sur ce système et n’ayant pas nécessairement les connaissances nécessaire pour dérouler un exploit au complet, nous avons ajouté une machine tournant sur Metasploitable, une version d’ubuntu possédant volontairement des failles afin de guider les débutants sur l’utilisation de Metasploit 
 
 # Conclusion
 
