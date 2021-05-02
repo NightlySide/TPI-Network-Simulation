@@ -8,13 +8,13 @@
 # Basic input rules
 -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 -A INPUT -p icmp -j ACCEPT
--A INOUT -i lo -m comment --comment "Loopback interface" -j ACCEPT
+-A INPUT -i lo -m comment --comment "Loopback interface" -j ACCEPT
 
 # Specific rules WEB
 -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 443 -j ACCEPT
 
-# Default REJECT LINE
+# LOG rule
 -A INPUT -j LOG --log-prefix DROPPED_INGRESS-
 
 COMMIT
