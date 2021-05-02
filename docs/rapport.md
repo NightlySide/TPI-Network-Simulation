@@ -1,17 +1,20 @@
-# Expérimentation d'une architecture SI sécurisée - Syslog-ng, Suricata, Ossec
+---
+title: "Rapport Projet TPI"
+subtitle: "Expérimentation architecture sécurisée avec Syslog, Suricata, OSSEC"
+author: [A. Froehlich, G. Leinen, E. Aubry]
+date: "02-05-2021"
+keywords: [tpi, ossec, suricata, syslog]
+lang: fr
+book: false
+titlepage: false
+toc-own-page: true
+header-left: "\\rightmark"
+header-right: "\\thetitle"
+#Config : https://github.com/Wandmalfarbe/pandoc-latex-template
+---
+# Introduction
 
-> Rapport rédigé dans le cadre du cours de Traitement et Protection de l'Information
-> U.E. 4.2 dispensé à l'ENSTA Bretagne
->
-> Auteurs :
->
-> -   Alexandre FROEHLICH
-> -   Guillaume LEINEN
-> -   Erwan AUBRY
-
-## Introduction
-
-L'objectif de ce project est de concevoir une simulation dans laquelle nous allons tenter de déclencher une intrusion puis de la détecter en remontant l'alerte.
+L'objectif de ce projet est de concevoir une simulation dans laquelle nous allons tenter de déclencher une intrusion puis de la détecter en remontant l'alerte.
 
 Pour arriver à cet objectif nous allons donc devoir :
 
@@ -22,13 +25,9 @@ Pour arriver à cet objectif nous allons donc devoir :
 
 Ce rapport décrit notre procédure et les évolutions du projet au fur et à mesure de nos avancées ainsi que de nos recherches.
 
-![Schéma initial](imgs/schema_initial.jpg)
+![Schéma initial donné par le sujet](imgs/schema_initial.jpg){ width=80%}
 
-```
-TODO: remplir en fonction du sujet
-```
-
-## Technologie de virtualisation
+# Technologie de virtualisation
 
 La toute première réflexion que nous avons était le choix de la technologie permettant de faire tourner nos multiples machines virtuelles. Le sujet nous proposant un minimum de 4 machines, il nous paraissait difficile de toutes les faire tourner sous **VirtualBox** ou **VMware** en raison des limites de matériel à notre disposition, en effet nous travaillons majoritairement sur PC portable et nous sommes limités par la quantité de RAM et de puissance de calcul.
 
@@ -36,7 +35,7 @@ Un autre type de virtualisation existe cependant : la "**containérisation**". L
 
 La technologie que nous avons décidé d'utiliser est [Docker](https://www.docker.com/).
 
-![Logo docker](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png)
+![Logo du groupe Docker](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png){ width=60%}
 
 L'outil [docker-compose](https://docs.docker.com/compose/) va nous permettre de **décrire les réseaux** ainsi que les interactions entre chaque image composant ce projet.
 
@@ -44,7 +43,7 @@ Ainsi nous allons **décrire chaque machine**, les configurer, créer des résea
 
 Nous avons donc la structure de fichier suivante : 
 
-![Structure de fichiers du projet](./imgs/struct_files.png)
+![Structure de fichiers du projet](./imgs/struct_files.png){ width=20%}
 
 Chaque dossier dans le dossier `docker` représente une machine sur le réseau. Dans chacun de ces dossier on va retrouver un fichier `Dockerfile` contenant la configuration de base de la machine avec par exemple les fichiers a copier dans le conteneur. Une telle configuration ressemble au fichier suivant : 
 
@@ -64,7 +63,7 @@ On se base sur une image préexistante sur [Docker Hub](https://hub.docker.com/)
 
 
 
-## Création des sous-réseaux
+# Création des sous-réseaux
 
 Nous venons de voir comment nous allions créer chaque machine. Maintenant nous devons nous poser la question de **comment organiser** ces machines en réseau afin de pouvoir commencer à configurer ces dernières et à simuler les intrusions.
 
@@ -80,28 +79,113 @@ On continue avec l’espace DMZ contenant le site web, le serveur DNS et syslog 
 
 Enfin nous avons l’espace utilisateur avec les postes utilisateur des employés de l’entreprise: Alice, Bob et le CEO. Ce sous-réseau portera le nom de `vlan-ZUI`. 
 
-![Nouveau réseau obtenu](imgs/network.drawio.png)
+Voici le schéma récapitulatif de ce que nous allons essayer d’implémenter pour ce projet. On distingue bien les différents sous-réseaux présents.
 
-## Création du firewall
+![Schéma du réseau complet que nous proposons](imgs/network.drawio.png)
 
--> expliquer pourquoi pas pfsense et comment on a trouvé l'autre
+En utilisant docker-compose cette configuration se faire de façon relativement simple : 
 
-### Définition des règles de filtrage
+```yaml
+version: "3.1"
+services:
+    ## service name, NOT the name of the container (that gets assigned automatically)
+    ## === ZUI ===
+    poste-utilisateur-CEO:
+        ## image from which the conatiner should be built, equals to FROM in Dockerfile
+        build: ./docker/poste_utilisateur/ceo/
+        tty: true
+        stdin_open: true
+        ## restart on crash
+        restart: always
+        # ports to expose
+        ports:
+            # host:container
+            - "2221:22"
+        networks:
+        	# the virtual lan used for this service
+            vlan-zui:
+                ipv4_address: 10.10.3.2
+    ## === INTERNET ===
+    kali:
+        build: ./docker/poste_externe_kali/
+        tty: true
+        stdin_open: true
+        restart: always
+        ports:
+            - "2222:22"
+        networks:
+            # another sub-network
+            internet:
+                ipv4_address: 10.10.0.2
+```
 
-### Durcissement configuration
+Maintenant que les sous-réseaux sont crées, il suffit d’aller dans le répertoire principal du projet et de taper les commandes suivantes : 
 
-## Utilisation de Syslog-ng pour les logs FW et Serveur
+```bash
+sudo systemctl start docker.service
+docker-compose build
+docker-compose up
+```
+
+En tapant ensuite la commande `docker ps ` on peut voir l’ensemble des conteneurs qui tournent sur la machine. Avec `docker stats` on peut suivre la consommation des ressources de l’ensemble des machines du réseau :
+
+![Statistiques de performance de l’ensemble des conteneurs présents dans le projet](./imgs/docker_perfs.png)
+
+Ce qui est bien moindre en comparaison avec des machines virtuelles sous VirtualBox ou VMware.
+
+# Mise en place des machines factices
+
+Nous avons utilisé [Traefik](https://doc.traefik.io/traefik/) comme router qui nous permet notamment d’avoir une belle interface graphique : 
+
+![Le dashboard de traefik](./imgs/traefik_dashboard.png){width=60%}
+
+Ainsi que de configurer les routes accessibles depuis l’extérieur :
+
+![Configuration des routes dans Traefik](./imgs/traefik_router.png)
+
+# Création du Firewall
+
+Le sujet nous proposait de nous tourner vers pfSense, une solution de pare-feu open source. Cependant, nous avons essayé de lancer un conteneur Docker tournant avec une image de pfSense et ce sans succès. Nous avons alors cherché d’autres produits permettant d’atteindre les mêmes objectifs, c’est à dire d’avoir un pare-feu open-source et gratuit à notre disposition pour filtrer les requêtes et remonter tous les évènements à un serveur de collecte.
+
+## Définition des règles de filtrage
+
+## Durcissement configuration
+
+# Utilisation de Syslog-ng pour les logs FW et Serveur
 
 -> logs centralisés via le protocole syslog, serveur de collecte sous syslog-ng
 
-## Mise en place de la défense réseau avec Suricata
+# Mise en place de la défense réseau avec Suricata
 
 -> Activer la fonction IDS, préciser les interfaces surveillées, quels sont les avantages inconvénients, utilisation jeu de règle standard, envoie des alertes sur serveur de collecte, tester depuis zone internet avec scan nmap
 
-## Mécanisme de défense hôte avec OSSEC
+# Mécanisme de défense hôte avec OSSEC
 
 -> configuration des fonctions principales: vérification d'intégrité, détection de rootkit, collecte de logs...
 
-## Attaque avec metasploit
+# Affichage des logs avec Kibana
+
+
+
+# Attaque avec metasploit
 
 -> attaquer de l'extérieur et de l'intérieur, voir comment le système réagit, quels sont les alertes remontées
+
+# Conclusion
+
+Certaines des parties que nous avons décrites peuvent paraître peu fournies. Nous avions pour sujet des technologies que nous ne connaissions pas et que nous ne maîtrisions pas. L’abandon des VM pour passer sur des conteneurs s’est effectué tard dans l’avancée du projet, nous forçant à tout recommencer depuis zéro afin d’obtenir un système “viable”.
+
+Pour revenir au sujet, il est clair que ce qui était attendu est une sorte de **SIEM** allégé en fonctionnalités. Le tout permettant de monitorer des évènements à différentes échelles. Nous cherchions donc à relever : 
+
+* **les intrusions externes** : par le Firewall qui remonte les tentatives d’intrusion externe, c’est la façon la plus courante de logger les tentatives d’intrusion
+* **les intrusions internes** : si une intrusion s’est fait en interne (non capturée par le Firewall ou bien accès physique en interne) nous avons 2 moyens de détecter cette intrusion
+  * **détection par le réseau** (NIDS): c’est le rôle d’une sonde réseau, de faire remonter les trafics suspicieux, au serveur de collecte, par le moyen d’un TAP par exemple
+  * **détection sur la machine** (HIDS): ici on cherche à détecter les comportements suspicieux sur une machine comme par exemple une élévation de privilèges, la création d’un nouveau compte, un changement de configuration ou de droits etc…
+
+Ce système de **détection à 3 niveaux** permet en théorie de capturer l’ensemble des attaques possibles aujourd’hui en supposant qu’elles utilisent des vecteurs d’attaque connus. Les nouveaux virus arrivants sur le marché cherchent à contourner ces moyens de détection en changeant leur signature ou leur comportement de manière à ne pas être détecté.
+
+Un soucis que l’on va avoir avec cette approche est que si nous faisons **remonter trop d’informations** (i.e. trop d’évènements) le système ne sera pas capable de tous les gérer. Le SIEM va alors être **noyé sous les évènements**. C’est pourquoi une bonne configuration est obligatoire, pour ne filtrer que les évènements qui nous intéressent et ainsi ne remonter que les informations utiles.
+
+Une autre solution pourrait être d’avoir un **serveur de collecte par sous-réseau** de manière à agréger les logs de son sous-réseau, de les filtrer avant de l’envoyer au serveur de collecte central.
+
+Pour finir, nous avons tous appris beaucoup avec ce sujet, même si le temps nous manquait pour aller plus loin dans les démarches. Nous pensons que la détection d’intrusion est une stratégie qui est aujourd’hui nécessaire dans tout système contenant des données sensibles.
