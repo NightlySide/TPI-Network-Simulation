@@ -27,6 +27,8 @@ Ce rapport décrit notre procédure et les évolutions du projet au fur et à me
 
 ![Schéma initial donné par le sujet](imgs/schema_initial.jpg){ width=80%}
 
+> L’ensemble des fichiers utilisés pour ce projet est disponible en open source sur github ici : [https://github.com/NightlySide/TPI-Network-Simulation](https://github.com/NightlySide/TPI-Network-Simulation).
+
 # Technologie de virtualisation
 
 La toute première réflexion que nous avons était le choix de la technologie permettant de faire tourner nos multiples machines virtuelles. Le sujet nous proposant un minimum de 4 machines, il nous paraissait difficile de toutes les faire tourner sous **VirtualBox** ou **VMware** en raison des limites de matériel à notre disposition, en effet nous travaillons majoritairement sur PC portable et nous sommes limités par la quantité de RAM et de puissance de calcul.
@@ -194,7 +196,33 @@ Il suffira que **chaque capteur** dans le système, que ce soit au niveau firewa
 
 # Mise en place de la défense réseau avec Suricata
 
--> Activer la fonction IDS, préciser les interfaces surveillées, quels sont les avantages inconvénients, utilisation jeu de règle standard, envoie des alertes sur serveur de collecte, tester depuis zone internet avec scan nmap
+Suricata est tout d’abord un programme permettant de générer des logs en analysant un trafic réseau. Cependant on peut lui activer la fonction d’IDS (Intrusion Detection System) il devient alors un outil couteau suisse très puissant dans la détection et la défense d’un système informatique. 
+
+Un peu à la manière des autres logiciels et services que l’on a vu tout au long de ce projet, suricata peut s’installer sur n’importe quelle machine GNU/Linux et se configure facilement à l’aide de fichiers de configuration.
+
+Pour être efficace, suricata doit observer tout le trafic entrant. On a donc deux possibilités : utiliser suricata comme passerelle, filtrant les paquets ou bien sur un TAP clonant tout le trafic.
+
+L’avantage de l’utiliser en tant que passerelle est que l’on peut modifier ou arrêter les paquets indésirables, l’inconvénient est que cela peut ralentir le débit si la machine sur laquelle suricata tourne n’est pas assez performante. L’avantages avantages et inconvénients de l’utilisation de suricata sur un TAP sont complémentaires à la passerelle.
+
+Les règles que l’on peut configurer pour suricata ressemblent aux suivantes : 
+
+```python
+alert http any any -> any any (msg:"Protocole HTTP détecté"; sid:1;)
+alert tcp any any -> any any (msg:"Protocole TCP détecté"; sid:2;)
+alert udp any any -> any any (msg:"Protocole UDP détecté"; sid:3;)
+```
+
+L’une des grandes forces de suricata est de pouvoir non seulement détecter les requêtes suspicieuses à l’aide des jeux de règles, mais on peut aussi tout simplement les bloquer.
+
+Pour ce projet nous avons décidé d’utiliser un jeu de règles standard car cela correspond le plus à ce qu’un utilisateur moyen installera sur son réseau pour le protéger. Nous avons choisi d’utiliser le jeu de règles d’Emerging Threats [disponible ici](https://rules.emergingthreats.net/). Ces règles permettent de détecter la plupart des trafics liés à une activité suspecte, comme un lien vers un reverse shell par exemple.
+
+On peut tester les fonctionnalités de suricata en mettant une alerte sur l’ensemble des ports tcp, ainsi si quelqu’un essaie d’envoyer une requête au routeur, pour voir si un port est ouvert par exemple, on pourra générer une alerte. Supposons que nous savons que le port 223 n’est jamais ouvert, on peut détecter un scan intrusif avec une requête ressemblant à :
+
+```python
+alert tcp any any -> ROUTER_IP 223 (msg:"Tentative de scan détectée"; sid:4;)
+```
+
+De la même manière on va pouvoir créer tout un ensemble de règles personnalisées correspondant aux besoins de l’entreprise.
 
 # Mécanisme de défense hôte avec OSSEC
 
@@ -223,40 +251,41 @@ nmap -sV --script=vulners -v 10.0.0.XX
 Ainsi du côté de la Kali linux sur internet nous ne trouvons que les ports 80 et 443 d’accessibles sans aucune vulnérabilité (par le script vulners) : 
 
 ```
-Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-07 17:28 CEST
-NSE: Loaded 46 scripts for scanning.
-NSE: Script Pre-scanning.
-Initiating NSE at 17:28
-Completed NSE at 17:28, 0.00s elapsed
-Initiating NSE at 17:28
-Completed NSE at 17:28, 0.00s elapsed
-Initiating Ping Scan at 17:28
-Scanning 10.0.0.XX [4 ports]
-Completed Ping Scan at 17:28, 0.19s elapsed (1 total hosts)
-Initiating Parallel DNS resolution of 1 host. at 17:28
-Completed Parallel DNS resolution of 1 host. at 17:28, 2.17s elapsed
-Initiating SYN Stealth Scan at 17:28
-Scanning 10.0.0.XX [1000 ports]
-Discovered open port 80/tcp on 10.0.0.XX
-Discovered open port 443/tcp on 10.0.0.XX
-Completed SYN Stealth Scan at 17:28, 5.58s elapsed (1000 total ports)
-Initiating Service scan at 17:28
-Scanning 16 services on x.x.x.x
-Service scan Timing: About 56.25% done; ETC: 17:30 (0:00:44 remaining)                                                              
-Completed Service scan at 17:30, 84.04s elapsed (16 services on 1 host)
-NSE: Script scanning x.x.x.x.
-Initiating NSE at 17:30
-Completed NSE at 17:30, 6.91s elapsed
-Initiating NSE at 17:30
-Completed NSE at 17:30, 1.55s elapsed
-Nmap scan report for x.x.x.x
-Host is up (0.19s latency).
-Not shown: 984 closed ports
-PORT      STATE SERVICE            VERSION
-80/tcp    open  http               Apache httpd 2.x.xx (OpenSSL/1.0.2d PHP/5.6.20)
+PORT      STATE SERVICE  VERSION                                                  
+80/tcp    open  http     Apache httpd 2.4.46 ((Unix))
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-server-header: Apache/2.4.46 (Unix)
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-trace: TRACE is enabled
+443/tcp   open  ssl/http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_      http://ha.ckers.org/slowloris/
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_sslv2-drown: 
+
+NSE: Script Post-scanning.
+Initiating NSE at 18:35
+Completed NSE at 18:35, 0.00s elapsed
+Initiating NSE at 18:35
+Completed NSE at 18:35, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 100.83 seconds
-           Raw packets sent: 1022 (44.944KB) | Rcvd: 1001 (40.108KB)
+Nmap done: 1 IP address (1 host up) scanned in 595.52 seconds
 ```
 
 **Pour tester le fonctionnement de suricata** en tant que sonde réseau, on peut essayer d’ouvrir un reverse shell depuis l’une des machines vers la Kali Linux. Ainsi ce trafic devrait être récupéré et loggé par suricata. Avec une bonne configuration on pourrait même “drop” (c’est à dire arrêter) la requête pour éviter les fuites de données.
