@@ -137,19 +137,52 @@ Ce qui est bien moindre en comparaison avec des machines virtuelles sous Virtual
 
 Nous avons utilisé [Traefik](https://doc.traefik.io/traefik/) comme router qui nous permet notamment d’avoir une belle interface graphique : 
 
-![Le dashboard de traefik](./imgs/traefik_dashboard.png){width=60%}
+![Le dashboard de traefik](./imgs/traefik_dashboard.png){width=80%}
 
 Ainsi que de configurer les routes accessibles depuis l’extérieur :
 
 ![Configuration des routes dans Traefik](./imgs/traefik_router.png)
 
+Nous avons par la même occasion créer un serveur web hébergeant une page toute simple : 
+
+![Page d’accueil du site web du projet](./imgs/website.png){width=90%}
+
 # Création du Firewall
 
 Le sujet nous proposait de nous tourner vers pfSense, une solution de pare-feu open source. Cependant, nous avons essayé de lancer un conteneur Docker tournant avec une image de pfSense et ce sans succès. Nous avons alors cherché d’autres produits permettant d’atteindre les mêmes objectifs, c’est à dire d’avoir un pare-feu open-source et gratuit à notre disposition pour filtrer les requêtes et remonter tous les évènements à un serveur de collecte.
 
-## Définition des règles de filtrage
+Nous allons définir les règles de filtrage pour configurer le firewall. Étant sous un système UNIX nous allons utiliser `iptable` pour définir les règles de filtrage de base. Voici à quoi ressemble le fichier de configuration :
 
-## Durcissement configuration
+```ruby
+*filter
+
+# INIT
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [44:6020]
+
+# Basic input rules
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -m comment --comment "Loopback interface" -j ACCEPT
+
+# Specific rules WEB
+-A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 443 -j ACCEPT
+
+# Default REJECT LINE
+-A INPUT -j LOG --log-prefix DROPPED_INGRESS-
+
+COMMIT
+```
+
+Par défaut on a décidé de bloquer tout le trafic entrant. On fonctionne alors sur le principe de la whitelist, c’est à dire que seul un ensemble de ports explicités seront autorisés à entrer. Pour l’instant sur le trafic sortant on autorise tous les ports entre 44 et 6020.
+
+Tout d’abord on autorise tous les ordinateurs. C’est à dire que l’on autorise tous les ordinateurs à communiquer avec le réseau. On accepte le protocole ICMP donc les pings venant de l’extérieur. Enfin on active le “Loopback interface” sur le firewall.
+
+Ensuite nous avons autorisé le trafic web en ouvrant les ports 80 et 443 correspondant aux protocoles HTTP et HTTPS afin de pouvoir accéder au serveur web.
+
+Pour terminer on autorise les logs a transiter sur le réseau. La dernière ligne permet d’enregistrer les règles sur le firewall.
 
 # Utilisation de Syslog-ng pour les logs FW et Serveur
 
@@ -165,9 +198,9 @@ Le sujet nous proposait de nous tourner vers pfSense, une solution de pare-feu o
 
 # Affichage des logs avec Kibana
 
+![Les logs s’affichent par ordre chronologique sur le dashboard Kibana](./imgs/kibana_logs.png)
 
-
-# Attaque avec metasploit
+# Attaque avec Metasploit
 
 -> attaquer de l'extérieur et de l'intérieur, voir comment le système réagit, quels sont les alertes remontées
 
