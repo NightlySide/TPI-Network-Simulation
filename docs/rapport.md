@@ -27,8 +27,6 @@ Ce rapport décrit notre procédure et les évolutions du projet au fur et à me
 
 ![Schéma initial donné par le sujet](imgs/schema_initial.jpg){ width=80%}
 
-> L’ensemble des fichiers utilisés pour ce projet est disponible en open source sur github ici : [https://github.com/NightlySide/TPI-Network-Simulation](https://github.com/NightlySide/TPI-Network-Simulation).
-
 # Technologie de virtualisation
 
 La toute première réflexion que nous avons était le choix de la technologie permettant de faire tourner nos multiples machines virtuelles. Le sujet nous proposant un minimum de 4 machines, il nous paraissait difficile de toutes les faire tourner sous **VirtualBox** ou **VMware** en raison des limites de matériel à notre disposition, en effet nous travaillons majoritairement sur PC portable et nous sommes limités par la quantité de RAM et de puissance de calcul.
@@ -314,3 +312,6 @@ Un soucis que l’on va avoir avec cette approche est que si nous faisons **remo
 Une autre solution pourrait être d’avoir un **serveur de collecte par sous-réseau** de manière à agréger les logs de son sous-réseau, de les filtrer avant de l’envoyer au serveur de collecte central.
 
 Pour finir, nous avons tous appris beaucoup avec ce sujet, même si le temps nous manquait pour aller plus loin dans les démarches. Nous pensons que la détection d’intrusion est une stratégie qui est aujourd’hui nécessaire dans tout système contenant des données sensibles.
+
+> L’ensemble des fichiers utilisés pour ce projet est disponible en open source sur github sur le repository suivant : [https://github.com/NightlySide/TPI-Network-Simulation](https://github.com/NightlySide/TPI-Network-Simulation).
+
