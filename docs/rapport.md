@@ -198,11 +198,66 @@ Pour terminer on autorise les logs a transiter sur le réseau. La dernière lign
 
 # Affichage des logs avec Kibana
 
+Pour l’affichage des logs et leur recherche en filtrant les logs qui ne sont pas intéressant nous avons la possibilité d’utiliser elasticsearch ou Kibana. Nous avons décidé de rester sur Kibana qui était une solution plus légère. Avec Logstash en tant que middleware, le résultat sera le même.
+
+Ainsi avec une configuration de base (à comprendre par défaut) nous pouvons déjà récupérer quelques logs de test et afficher le nombre d’évènement reçus sur le dashboard :
+
 ![Les logs s’affichent par ordre chronologique sur le dashboard Kibana](./imgs/kibana_logs.png)
 
 # Attaque avec Metasploit
 
--> attaquer de l'extérieur et de l'intérieur, voir comment le système réagit, quels sont les alertes remontées
+En utilisant une image Kali linux avec le framework Metasploit, plusieurs outils sont disponibles afin de tester les capteurs que nous avons installé.
+
+**Pour tester le firewall** nous pouvons utiliser l’outil `nmap` avec par exemple la commande suivante qui permet de scanner l’ensemble des ports ouverts entre 1 et 10 000 en cherchant à identifier les protocoles ouverts ainsi que leurs vulnérabilités :
+
+```bash
+nmap -sV --script=vulners -v 10.0.0.XX
+```
+
+Ainsi du côté de la Kali linux sur internet nous ne trouvons que les ports 80 et 443 d’accessibles sans aucune vulnérabilité (par le script vulners) : 
+
+```
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-07 17:28 CEST
+NSE: Loaded 46 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:28
+Completed NSE at 17:28, 0.00s elapsed
+Initiating NSE at 17:28
+Completed NSE at 17:28, 0.00s elapsed
+Initiating Ping Scan at 17:28
+Scanning 10.0.0.XX [4 ports]
+Completed Ping Scan at 17:28, 0.19s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 17:28
+Completed Parallel DNS resolution of 1 host. at 17:28, 2.17s elapsed
+Initiating SYN Stealth Scan at 17:28
+Scanning 10.0.0.XX [1000 ports]
+Discovered open port 80/tcp on 10.0.0.XX
+Discovered open port 443/tcp on 10.0.0.XX
+Completed SYN Stealth Scan at 17:28, 5.58s elapsed (1000 total ports)
+Initiating Service scan at 17:28
+Scanning 16 services on x.x.x.x
+Service scan Timing: About 56.25% done; ETC: 17:30 (0:00:44 remaining)                                                              
+Completed Service scan at 17:30, 84.04s elapsed (16 services on 1 host)
+NSE: Script scanning x.x.x.x.
+Initiating NSE at 17:30
+Completed NSE at 17:30, 6.91s elapsed
+Initiating NSE at 17:30
+Completed NSE at 17:30, 1.55s elapsed
+Nmap scan report for x.x.x.x
+Host is up (0.19s latency).
+Not shown: 984 closed ports
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               Apache httpd 2.x.xx (OpenSSL/1.0.2d PHP/5.6.20)
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 100.83 seconds
+           Raw packets sent: 1022 (44.944KB) | Rcvd: 1001 (40.108KB)
+```
+
+**Pour tester le fonctionnement de suricata** en tant que sonde réseau, on peut essayer d’ouvrir un reverse shell depuis l’une des machines vers la Kali Linux. Ainsi ce trafic devrait être récupéré et loggé par suricata. Avec une bonne configuration on pourrait même “drop” (c’est à dire arrêter) la requête pour éviter les fuites de données.
+
+**Enfin pour tester le fonctionnement de OSSEC** on pourrait déployer un payload sur la machine où est installée OSSEC et essayer de faire de la mitigation en insérant notre reverse shell (ou session meterpreter) dans un autre processus, ou en tentant une élévation de privilèges. 
+
+Dans ces deux derniers cas, suricata et OSSEC devraient générer une alerte ou un log qui sera envoyé au serveur de collecte. Dans ce cas **Logstash récupère ce log** qui est propre à chaque logiciel **pour le convertir en un log générique** qui sera ensuite “interprété” par Kibana pour afficher les informations pertinentes à l’OSSI ou au technicien surveillant le système.
 
 # Conclusion
 
